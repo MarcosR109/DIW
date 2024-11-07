@@ -1,0 +1,23 @@
+@color : #9db0ca;
+@fontsize : 2em;
+@margin:5px;
+
+.color{
+    background-color:mix(@color,#300);
+}
+
+p{
+    font-size: @fontsize;
+    color:darken(@color,10%);
+}
+
+h1{
+    color:@color;
+}
+h2{
+    margin:@margin;
+    color:@color;
+}
+body{
+    .color;
+}

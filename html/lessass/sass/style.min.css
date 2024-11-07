@@ -1,0 +1,1 @@
+@use '_first.scss';.color{background-color:#4b4d71}p{font-size:2em;color:"first.$primary"}h1{color:#639ae2}h2{margin:5px;color:#639ae2}body{color:"first.$primary"}
