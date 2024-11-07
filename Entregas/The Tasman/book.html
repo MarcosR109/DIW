@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rooms</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar bg-dark">
+            <div
+                class="container-fluid d-flex align-items-center"
+                style="height: auto">
+                <div class="d-flex align-items-center w-100">
+                    <img
+                        class="img-fluid"
+                        style="max-width: 5%; filter: invert(1)"
+                        src="images/Tasman-Mono.png"
+                        alt="Logo" />
+                    <h1
+                        class="navbar link-light text-start ms-3"
+                        style="font-family: Serif; font-size: 2.5rem">
+                        Discover the beautifully uncharted in Hobart,
+                        <br />Tasmania
+                    </h1>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid p-0 mt-0 mx-0">
+            <form
+                class="row g-0 justify-content-center align-items-center p-4 border rounded col-12 ">
+                <!-- Check-in Date -->
+                <div class="col-12 col-md-3 p-3">
+                    <label
+                        for="checkInDate"
+                        class="form-label"
+                        style="font-family: serif; font-size: 1rem">Check-in</label>
+                    <input
+                        type="date"
+                        class="form-control w-100"
+                        id="checkInDate"
+                        aria-label="Check-in date" />
+                </div>
+
+                <!-- Check-out Date -->
+                <div class="col-12 col-md-3 p-3">
+                    <label
+                        for="checkOutDate"
+                        class="form-label"
+                        style="font-family: serif; font-size: 1rem">Check-out</label>
+                    <input
+                        type="date"
+                        class="form-control w-100"
+                        id="checkOutDate"
+                        aria-label="Check-out date" />
+                </div>
+
+                <!-- Guests Selector -->
+                <div class="col-12 col-md-3 p-3">
+                    <label
+                        for="numGuests"
+                        class="form-label"
+                        style="font-family: serif; font-size: 1rem">Guests</label>
+                    <select
+                        class="form-select"
+                        id="numGuests"
+                        aria-label="Number of guests">
+                        <option selected disabled>Choose...</option>
+                        <option value="1">1 Adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="4">4 Adults</option>
+                        <option value="5">5 Adults</option>
+                        <option value="6">6 Adults</option>
+                    </select>
+                </div>
+
+                <div class="col-12 col-md-3 mt-4 p-3">
+                    <button type="submit"
+                        class="btn btn-dark w-100 btn-reserve ">Reserve</button>
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid col-12 p-3 rounded-3 mt-1 w-100 flex-row"
+            style="background-color: rgba(22, 22, 22, 0.85)">
+            <div class="container-fluid px-5 py-5 rounded-3 mb-1"
+                style="background-color: rgba(22, 22, 22,1)">
+                <div
+                    class="d-flex flex-row flex-md-row align-items-center flex-sm-column">
+                    <div class="col-sm-12 col-md-3">>
+                        <img src="images/v1_32.png" alt
+                            class="img-fluid w-100 rounded-3" />
+                        </div
+                        <div
+                            class="card-body w-50 text-center text-md-start ms-md-4">
+                            <h5 class="card-title text-light mx-5"
+                                style="font-family: serif; font-size: 4rem;"
+                                ">
+                                King's room:
+                            </h5>
+                            <p class="text-light"
+                                style="font-family: serif; font-size: 2.5rem;">
+                                Enjoy a luxurious stay in our King's room with
+                                all the amenities you need for a comfortable and
+                                memorable experience.
+                                <br />Rate: $250 per night
+                            </p>
+                            <button
+                                style="
+          border-radius: 10px;
+          background-color: rgb(255, 255, 255);
+          font-family: serif;
+          color: rgb(0, 0, 0);
+          font-size: 3em;
+          border:0px;
+        " onclick="window.location.href = 'form.html'">
+                                Reserve
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div
+                class="container-fluid col-12 p-3 rounded-3 mt-1 w-100 flex-row"
+                style="background-color: rgba(22, 22, 22, 0.85)">
+                <div class="container-fluid px-5 py-5 rounded-3 mb-1"
+                    style="background-color: rgba(22, 22, 22,1)">
+                    <div
+                        class="d-flex flex-row flex-md-row align-items-center flex-sm-column">
+                        <div class="col-sm-12 col-md-3">>
+                            <img src="images/v1_32.png" alt
+                                class="img-fluid w-100 rounded-3" />
+                            </div
+                            <div
+                                class="card-body w-50 text-center text-md-start ms-md-4">
+                                <h5 class="card-title text-light mx-5"
+                                    style="font-family: serif; font-size: 4rem;"
+                                    ">
+                                    King's room:
+                                </h5>
+                                <p class="text-light"
+                                    style="font-family: serif; font-size: 2.5rem;">
+                                    Enjoy a luxurious stay in our King's room
+                                    with
+                                    all the amenities you need for a comfortable
+                                    and
+                                    memorable experience.
+                                    <br />Rate: $250 per night
+                                </p>
+                                <button
+                                    style="
+          border-radius: 10px;
+          background-color: rgb(255, 255, 255);
+          font-family: serif;
+          color: rgb(0, 0, 0);
+          font-size: 3em;
+          border:0px;
+        " onclick="window.location.href = 'form.html'">
+                                    Reserve
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div
+                class="container-fluid col-12 p-3 rounded-3 mt-1 w-100 flex-row mb-1"
+                style="background-color: rgba(22, 22, 22, 0.85)">
+                <div class="container-fluid px-5 py-5 rounded-3 mb-1"
+                    style="background-color: rgba(22, 22, 22,1)">
+                    <div
+                        class="d-flex flex-row flex-md-row align-items-center flex-sm-column">
+                        <div class="col-sm-12 col-md-3">>
+                            <img src="images/v1_32.png" alt
+                                class="img-fluid w-100 rounded-3" />
+                            </div
+                            <div
+                                class="card-body w-50 text-center text-md-start ms-md-4">
+                                <h5 class="card-title text-light mx-5"
+                                    style="font-family: serif; font-size: 4rem;"
+                                    ">
+                                    King's room:
+                                </h5>
+                                <p class="text-light"
+                                    style="font-family: serif; font-size: 2.5rem;">
+                                    Enjoy a luxurious stay in our King's room
+                                    with
+                                    all the amenities you need for a comfortable
+                                    and
+                                    memorable experience.
+                                    <br />Rate: $250 per night
+                                </p>
+                                <button
+                                    style="
+          border-radius: 10px;
+          background-color: rgb(255, 255, 255);
+          font-family: serif;
+          color: rgb(0, 0, 0);
+          font-size: 3em;
+          border:0px;
+        " onclick="window.location.href = 'form.html'">
+                                    Reserve
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div
+            class="container-fluid justify-content-start bg-dark p-3 col-sm-12">
+            <ul style="font-family: serif; color: darkgray; font-size: 2em">
+                <li class="list-group link-light" style="font-size: 1.5em">
+                    Reservations:
+                </li>
+                <li><a href class="link-light page-link">Find a
+                        Hotel</a></li>
+                <li>
+                    <a href class="link-light page-link">Browse by
+                        Destination</a>
+                </li>
+                <li>
+                    <a href class="link-light page-link">Find a Private Home
+                        Rental</a>
+                </li>
+            </ul>
+
+            <ul style="font-family: serif; color: darkgray; font-size: 2em">
+                <li class="list-group link-light"
+                    style="font-size: 1.5em">Account:</li>
+                <li><a href class="link-light page-link">My
+                        account.</a></li>
+                <li><a href class="link-light page-link">Find a
+                        reservation</a></li>
+            </ul>
+            <div class="col-1">
+                <img src="images/social-media-5995266_1280.webp"
+                    class="img-fluid" />
+            </div>
+        </div>
+        
+    </body>
+</html>
