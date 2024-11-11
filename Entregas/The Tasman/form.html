@@ -23,7 +23,12 @@
   <nav class="navbar bg-dark">
     <div class="container-fluid d-flex align-items-center" style="height: auto">
       <div class="d-flex align-items-center w-100">
-        <img class="img-fluid" style="max-width: 5%; filter: invert(1)" src="images/Tasman-Mono.png" alt="Logo" />
+        <img
+        class="img-fluid"
+        style="max-width: 5%; filter: invert(1)"
+        src="images/Tasman-Mono.png"
+        alt="Logo" 
+        onclick="window.location.href = 'index.html'"/>
         <h1 class="navbar link-light text-start ms-3" style="font-family: Serif; font-size: 2.5rem">
           Discover the beautifully uncharted in Hobart, <br />Tasmania
         </h1>
@@ -36,6 +41,7 @@
     <div class="card-body w-50 text-center text-md-start ms-md-4">
       <h2 class="text-light" style="font-family: serif; font-size: 2rem;">Contact details</h2>
       <form>
+        
         <div class="form-group">
           <label for="fullName">Full Name</label>
           <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
@@ -52,7 +58,7 @@
           <label for="message">Message</label>
           <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
         </div>
-        <button type="submit" class="btn btn-dark btn-block" style="border-radius: 10px;">Submit</button>
+        <button type="submit" class="btn btn-light btn-block mt-2" style="border-radius: 10px;">Submit</button>
       </form>
     </div>
   </div>
