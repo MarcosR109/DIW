@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Running</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet">
+        <style>
+               
+                .card-main {
+                    height: 428px; 
+                }
+                .card-content{
+                    font-family: 'Montserrat', sans-serif;
+                }
+               
+                .card-small .card-img {
+                    height: 200px;
+                    object-fit: cover;
+                }
+        
+
+                .card .card-img-overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                }
+                .dropdown-menu .dropdown-item:hover {
+            background-color: #495057;
+            color: #ffffff; 
+        }
+        .navbar {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem; 
+        }
+        .navbar .nav-item, .navbar .navbar-brand, .navbar .dropdown-item {
+            font-weight: 500; 
+            letter-spacing: 0.5px; 
+        }
+        .card-legible{
+            background-color: rgba(0, 0, 0, 0.455);
+        }
+            </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand flex-row" href="#">
+                    <img src="images/logocelarcc.png" alt="Logo" width="85"
+                        height="85" class="d-inline-block align-text-top me-2">
+                </a>
+               
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="d-flex flex-lg-row flex-column w-100">
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownNoticias" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Noticias
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownNoticias">
+                                <li><a class="                                id="dropdownNoticias" data-bs-toggle="dropdown"                                  aria-expanded="false">tica</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownAtletas" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Atletas
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownAtletas">
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Clubs</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Atletas</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Récords de La Rioja</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownHerramientas"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Herramientas
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownHerramientas">
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Calculadora de ritmos</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">El tiempo</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Planes de
+                                        entrenamiento</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Contacto</a>
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Sobre
+                            nosotros</a>
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Eventos</a>
+
+                        
+                        <a href="#" class="link-light ms-lg-auto mt-lg-0 mt-2">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container my-5">
+            <div class="row g-4">
+             
+                <div class="col-lg-6">
+                    <div class="card bg-dark text-white card-main border-0">
+                        <img src="images/1.jpg" class="card-img"
+                            alt="Noticia destacada">
+                        <div
+                            class="card-img-overlay d-flex flex-column justify-content-end">
+                            
+                            <div class="d-flex">
+                                <span
+                                    class="badge bg-primary mb-2">NOTICIAS</span>
+                            </div>
+                            <h5 class="card-title">Dimite el Presidente y la
+                                Junta Directiva de la Federación Riojana de
+                                Atletismo</h5>
+                            <p class="card-text">
+                                <small><i class="bi bi-calendar"></i> miércoles,
+                                    6 de noviembre de 2024</small>
+                                <small class="ms-3"><i class="bi bi-person"></i>
+                                    Admin</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        
+                        <div class="col-md-6">
+                            <div
+                                class="card bg-dark text-white card-small border-0">
+                                <img src="images/6.webp" class="card-img"
+                                    alt="Noticia">
+                                <div
+                                    class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <div class="card-legible p-1 rounded-3">
+                                        <h6 class="card-title">Miguel Monforte y
+                                            Héctor Miguel, terceros en el Cross
+                                            de
+                                            Soria</h6>
+                                        <p class="card-text">
+                                            <small><i
+                                                    class="bi bi-calendar"></i>
+                                                lunes, 11 de noviembre de
+                                                2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                     
+                        <div class="col-md-6">
+                            <div
+                                class="card bg-dark text-white card-small border-0">
+                                <img src="images/2.jpg" class="card-img"
+                                    alt="Noticia">
+                                <div
+                                    class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <div class="card-legible rounded-3 p-1">
+
+                                        <h6 class="card-title">Sebastián
+                                            Pérez
+                                            revalida el título en el Cross
+                                            de
+                                            Soria</h6>
+                                        <p class="card-text">
+                                            <small><i
+                                                    class="bi bi-calendar"></i>
+                                                lunes, 11 de noviembre de
+                                                2024</small>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        <div class="col-md-6">
+                            <div
+                                class="card bg-dark text-white card-small border-0">
+                                <img src="images/3.jpg" class="card-img"
+                                    alt="Noticia">
+                                <div
+                                    class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <div class="card-legible p-1 rounded-3">
+                                        <h6 class="card-title">Dimite el
+                                            Presidente
+                                            y la Junta Directiva de la
+                                            Federación
+                                            Riojana de Atletismo</h6>
+                                        <p class="card-text">
+                                            <small><i
+                                                    class="bi bi-calendar"></i>
+                                                miércoles, 6 de noviembre de
+                                                2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                        <div class="col-md-6">
+                            <div
+                                class="card bg-dark text-white card-small border-0">
+                                <img src="images/7.jpg" class="card-img"
+                                    alt="Noticia">
+                                <div
+                                    class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <div class="card-legible p-1 rounded-3">
+                                        <h6 class="card-title">La FERTRI
+                                            organiza
+                                            entrenamientos para mujeres como
+                                            preparación a la Carrera Virgen de
+                                            la
+                                            Esperanza de Logroño</h6>
+                                        <p class="card-text">
+                                            <small><i
+                                                    class="bi bi-calendar"></i>
+                                                martes, 5 de noviembre de
+                                                2024</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+               
+                <div class="col-lg-4">
+                    <h5 class="mb-3 text-uppercase"><span
+                            class="badge bg-secondary">Carreras</span></h5>
+                    <div class="card mb-3">
+                        <img src="images/2.jpg" class="card-img-top"
+                            alt="Carrera 1">
+                        <div class="card-body card-content">
+                            <span class="badge bg-dark mb-2">CARRERAS</span>
+                            <h6 class="card-title">Miguel Monforte y Héctor
+                                Miguel, terceros en el Cross de Soria</h6>
+                            <p class="card-text"><small class="text-muted"><i
+                                        class="bi bi-calendar"></i> lunes, 11 de
+                                    noviembre de 2024</small></p>
+                            <p class="card-text">El Monte de Valonsadero en
+                                Soria ha acogido este domingo la XXX edición del
+                                Campo a través internacional de Soria.</p>
+                        </div>
+                    </div>
+
+                  
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6 class="mb-1">Sebastián Pérez revalida el título
+                                en el Cross de Soria</h6>
+                            <small class="text-muted"><i
+                                    class="bi bi-calendar"></i> lunes, 11 de
+                                noviembre de 2024</small>
+                        </li>
+                        <li class="list-group-item">
+                            <h6 class="mb-1">Pau Capdevila e Inés Moreno,
+                                vencedores de la XVII Carrera Entre Viñedos</h6>
+                            <small class="text-muted"><i
+                                    class="bi bi-calendar"></i> domingo, 5 de
+                                noviembre de 2024</small>
+                        </li>
+                      
+                    </ul>
+                </div>
+
+          
+                <div class="col-lg-4">
+                    <h5 class="mb-3 text-uppercase"><span
+                            class="badge bg-primary">Noticias</span></h5>
+                    <div class="card mb-3">
+                        <img src="images/1.jpg" class="card-img-top"
+                            alt="Noticia principal">
+                        <div class="card-body card-content">
+                            <span class="badge bg-info mb-2">NOTICIAS</span>
+                            <h6 class="card-title">Dimite el Presidente y la
+                                Junta Directiva de la Federación Riojana de
+                                Atletismo</h6>
+                            <p class="card-text"><small class="text-muted"><i
+                                        class="bi bi-calendar"></i> miércoles, 6
+                                    de noviembre de 2024</small></p>
+                            <p class="card-text">"Por causas urgentes" se
+                                convocaba ayer una Asamblea Extraordinaria de la
+                                Federación Riojana de Atletismo, con el orden
+                                del día...</p>
+                        </div>
+                    </div>
+
+                  
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6 class="mb-1">La FERTRI organiza entrenamientos
+                                para mujeres</h6>
+                            <small class="text-muted"><i
+                                    class="bi bi-calendar"></i> martes, 5 de
+                                noviembre de 2024</small>
+                        </li>
+                        <li class="list-group-item">
+                            <h6 class="mb-1">Nacho Hernando, primer español en
+                                el Maratón de Nueva York</h6>
+                            <small class="text-muted"><i
+                                    class="bi bi-calendar"></i> domingo, 3 de
+                                noviembre de 2024</small>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+             
+                <div class="col-lg-4">
+                    <h5 class="mb-3 text-uppercase">En Logroño ahora</h5>
+                    <div class="p-3 mb-3 bg-light rounded">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h2>13°</h2>
+                                <p class="mb-0">Soleado</p>
+                            </div>
+                            <i class="bi bi-sun"
+                                style="font-size: 2rem; color: orange;"></i>
+                        </div>
+                    </div>
+
+                    <h5 class="mb-3 text-uppercase">Próximos eventos</h5>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item">
+                            <h6 class="mb-1">XVII Cross Vuelta al Plantío</h6>
+                            <small class="text-muted">17 noviembre · 11:15 -
+                                13:00</small>
+                        </li>
+                        <li class="list-group-item">
+                            <h6 class="mb-1">Jornadas Técnicas Terra
+                                Atletismo</h6>
+                            <small class="text-muted">30 noviembre · 09:00 -
+                                13:30</small>
+                        </li>
+                      
+                    </ul>
+
+                    <h5 class="mb-3 text-uppercase">Síguenos en Twitter</h5>
+                    <div class="p-3 bg-light rounded">
+                        <p class="text-center">Posts de
+                            <strong>@correr_en_la_rioja</strong></p>
+                        <div class="text-center">
+                            <p>No hay nada que ver aquí. Por ahora.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <h3 class="fw-bold">Mira las próximas carreras en La Rioja</h3>
+            <div class="row">
+         
+                <div class="col-lg-10">
+                  
+                    <div class="card mb-3">
+                        <div class="card-body card-content">
+                            <span class="badge bg-dark mb-2">Carrera
+                                Popular</span>
+                            <h5 class="card-title">XVII Cross Vuelta al
+                                Plantío</h5>
+                            <p class="card-text">La XVII edición del Cross
+                                Vuelta al Plantío se celebrará en el Parque del
+                                Plantío de Logroño, con distintas categorías y
+                                distancias para participantes de todas las
+                                edades.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/pe.png"
+                                        class="rounded-circle me-2" width="40"
+                                        height="40"
+                                        alt="Organizador: Club Atletismo Plantío">
+                                    <small class="text-muted">Organizado por
+                                        Club Atletismo Plantío</small>
+                                </div>
+                                <a href="#" class="text-primary">Saber más</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <span class="text-muted">Fecha: 17 de noviembre de
+                                2024</span>
+                        </div>
+                    </div>
+
+                  
+                    <div class="card mb-3">
+                        <div class="card-body card-content">
+                            <span class="badge bg-dark mb-2">Carrera
+                                Solidaria</span>
+                            <h5 class="card-title">I Carrera Solidaria Ruta
+                                091</h5>
+                            <p class="card-text">Únete a esta carrera solidaria
+                                organizada por la Policía Nacional para recaudar
+                                fondos en apoyo a la infancia vulnerable. La
+                                ruta cubre los principales puntos turísticos de
+                                Logroño.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/pe.png" width="40"
+                                        height="40"
+                                        class="rounded-circle me-2"
+                                        alt="Organizador: Policía Nacional">
+                                    <small class="text-muted">Organizado por
+                                        Policía Nacional</small>
+                                </div>
+                                <a href="#" class="text-primary">Saber más</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <span class="text-muted">Fecha: 12 de enero de
+                                2025</span>
+                        </div>
+                    </div>
+
+                   
+                    <div class="card mb-3">
+                        <div class="card-body card-content">
+                            <span class="badge bg-dark mb-2">Trail de
+                                Montaña</span>
+                            <h5 class="card-title">Desafío Sarrió</h5>
+                            <p class="card-text">Desafía tus límites en esta
+                                carrera de montaña con rutas desafiantes a
+                                través de los paisajes más impresionantes de La
+                                Rioja. Apta para corredores experimentados.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/pe.png" width="40"
+                                        height="40"
+                                        class="rounded-circle me-2"
+                                        alt="Organizador: Asociación Desafío Sarrió">
+                                    <small class="text-muted">Organizado por
+                                        Asociación Desafío Sarrió</small>
+                                </div>
+                                <a href="#" class="text-primary">Saber más</a>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <span class="text-muted">Fecha: 18 de enero de
+                                2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cookieModal" tabindex="-1"
+            aria-labelledby="cookieModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title modal-dialog-centered"
+                            id="cookieModalLabel">Uso de Cookies</h5>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body modal-dialog-centered">
+                        Este sitio utiliza cookies para mejorar tu experiencia
+                        de navegación. Al continuar en este sitio, aceptas su
+                        uso.
+                    </div>
+                    <div class="modal-footer modal-dialog-centered">
+                        <button type="button" class="btn btn-primary"
+                            data-bs-dismiss="modal">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-light py-3">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-1">Copyright © 2024 <a href="#"
+                                class="text-decoration-none text-info">Correr en
+                                La Rioja</a>. Todos los derechos reservados.</p>
+                        <p class="mb-1"><a href="#"
+                                class="text-decoration-none text-info">Política
+                                de cookies</a></p>
+                        <p class="mb-0">Otro proyecto de <a href="#"
+                                class="text-decoration-none text-info">MiRioja</a></p>
+                    </div>
+                    
+                    <div class="col-md-6 text-md-end text-center">
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i
+                                class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+
+            const cookieModal = new bootstrap.Modal(document.getElementById('cookieModal'));
+            cookieModal.show();
+        </script>
+
+       
+    </body>
+</html>

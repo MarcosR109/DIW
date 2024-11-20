@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
     body {
       font-family: serif;
       background-color: rgba(255, 255, 255, 0.85);
@@ -18,92 +18,64 @@
       margin-top: 50px;
     }
   </style>
-  </head>
-  <body>
-    <nav class="navbar bg-dark">
-      <div class="container-fluid d-flex align-items-center"
-        style="height: auto">
-        <div class="d-flex align-items-center w-100">
-          <img
-            class="img-fluid"
-            style="max-width: 5%; filter: invert(1)"
-            src="images/Tasman-Mono.png"
-            alt="Logo"
-            onclick="window.location.href = 'index.html'" />
-          <h1 class="navbar link-light text-start ms-3"
-            style="font-family: Serif; font-size: 2.5rem">
-            Discover the beautifully uncharted in Hobart, <br />Tasmania
-          </h1>
-        </div>
-      </div>
-    </nav>
-    <div
-      class="container-fluid d-flex justify-content-center p-3 mx-0 text-center align-items-center">
-      <div
-        class="d-flex flex-column flex-md-row align-items-center form-container mt-0 w-100">
-        <div class="col-md-12 col-lg-4 me-md-4">
-          <div class="card-body text-center text-md-start col-sm-3 w-100">
-            <h2 class="text-light col-sm-3"
-              style="font-family: serif; font-size: 2rem;">Contact details</h2>
-            <form class="w-100">
-              <div class="form-group">
-                <label for="fullName">Full Name</label>
-                <input type="text" class="form-control" id="fullName"
-                  placeholder="Enter your full name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email"
-                  placeholder="Enter your email" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" id="phone"
-                  placeholder="Enter your phone number" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="4"
-                  placeholder="Enter your message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-light btn-block mt-2"
-                style="border-radius: 10px;">Submit</button>
-            </form>
-          </div>
-        </div>
-        <div class="w-100 justify-content-center my-1 ">
-          <div class="card w-100">
-            <img src="images/v1_32.png" class="img-fluid rounded-top col-sm-3 w-50 align-self-center"
-              alt="Room Image">
-            <div class="card-body">
-              <h5 class="card-title">Room Details</h5>
-              <p class="card-text">Room Type: Deluxe Suite</p>
-              <p class="card-text">Price: $200 per night</p>
-              <p class="card-text">Check-in: 3:00 PM</p>
-              <p class="card-text">Check-out: 11:00 AM</p>
-            </div>
-          </div>
-        </div>
+</head>
+<body>
+  <nav class="navbar bg-dark">
+    <div class="container-fluid d-flex align-items-center" style="height: auto">
+      <div class="d-flex align-items-center w-100">       
+        <img
+        class="img-fluid"
+        style="max-width: 5%; filter: invert(1)"
+        src="images/Tasman-Mono.png"
+        alt="Logo" 
+        onclick="window.location.href = 'index.html'"/>
+        <h1 class="navbar link-light text-start ms-3" style="font-family: Serif; font-size: 2.5rem">
+          Discover the beautifully uncharted in Hobart, <br />Tasmania
+        </h1>
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid justify-content-start bg-dark p-3 col-sm-12">
-    <ul style="font-family: serif; color: darkgray; font-size: 1.5em">
-      <li class="list-group link-light"
-        style="font-size: 1.2em">Reservations:</li>
-      <li><a href class="link-light page-link">Find a Hotel</a></li>
-      <li><a href class="link-light page-link">Browse by Destination</a></li>
-      <li><a href class="link-light page-link">Find a Private Home
-          Rental</a></li>
-    </ul>
-    <ul style="font-family: serif; color: darkgray; font-size: 1.5em">
-      <li class="list-group link-light" style="font-size: 1.2em">Account:</li>
-      <li><a href class="link-light page-link">My account.</a></li>
-      <li><a href class="link-light page-link">Find a reservation</a></li>
-    </ul>
-    <div class="col-1">
-      <img src="images/social-media-5995266_1280.webp" class="img-fluid" />
+  </nav>
+<div class="container-fluid d-flex justify-content-center p-3 mx-0">
+  <div class="d-flex flex-column flex-md-row align-items-center form-container mt-0" style="width: 75%;">
+    <img src="images/v1_32.png" alt="Contact Us" class="img-fluid w-50 rounded-3" />
+    <div class="card-body w-50 text-center text-md-start ms-md-4">
+      <h2 class="text-light" style="font-family: serif; font-size: 2rem;">Contact details</h2>
+      <form>
+        
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-light btn-block mt-2" style="border-radius: 10px;">Submit</button>
+      </form>
     </div>
   </div>
-</html>
+</div>
+<div class="container-fluid justify-content-start bg-dark p-3 col-sm-12">
+  <ul style="font-family: serif; color: darkgray; font-size: 1.5em">
+    <li class="list-group link-light" style="font-size: 1.2em">Reservations:</li>
+    <li><a href="" class="link-light page-link">Find a Hotel</a></li>
+    <li><a href="" class="link-light page-link">Browse by Destination</a></li>
+    <li><a href="" class="link-light page-link">Find a Private Home Rental</a></li>
+  </ul>
+  <ul style="font-family: serif; color: darkgray; font-size: 1.5em">
+    <li class="list-group link-light" style="font-size: 1.2em">Account:</li>
+    <li><a href="" class="link-light page-link">My account.</a></li>
+    <li><a href="" class="link-light page-link">Find a reservation</a></li>
+  </ul>
+  <div class="col-1">
+    <img src="images/social-media-5995266_1280.webp" class="img-fluid" />
+  </div>
+</div>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Cambio - Bootstrap 5.3</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+            <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet">
+        <style>
+                /* Ajusta la altura de la card principal para alinearla con las cards pequeñas */
+                .card-main {
+                    height: 428px; /* Ajusta esta altura según el contenido */
+                }
+        
+                /* Establecer una altura fija para las imágenes de las cards pequeñas */
+                .card-small .card-img {
+                    height: 200px;
+                    object-fit: cover;
+                }
+        
+                /* Asegura que el contenido de las cards esté bien alineado */
+                .card .card-img-overlay {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                }
+                .dropdown-menu .dropdown-item:hover {
+            background-color: #495057; /* Fondo oscuro al hacer hover */
+            color: #ffffff; /* Texto blanco */
+        }
+        .card-content{
+            font-family: 'montserrat', sans-serif;
+        }
+            </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand flex-row" href="#">
+                    <img src="images/logocelarcc.png" alt="Logo" width="85"
+                        height="85" class="d-inline-block align-text-top me-2">
+                </a>
+                
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="d-flex flex-lg-row flex-column w-100">
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownNoticias" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Noticias
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownNoticias">
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Carreras</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Noticias política</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownAtletas" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Atletas
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownAtletas">
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Clubs</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Atletas</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Récords de La Rioja</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <div class="dropdown me-lg-3">
+                            <a href="#"
+                                class="link-light nav-item link-underline-opacity-0 dropdown-toggle"
+                                id="dropdownHerramientas"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Herramientas
+                            </a>
+                            <ul class="dropdown-menu bg-dark"
+                                aria-labelledby="dropdownHerramientas">
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Calculadora de ritmos</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">El tiempo</a></li>
+                                <li><a class="dropdown-item text-light"
+                                        href="#">Planes de
+                                        entrenamiento</a></li>
+                            </ul>
+                        </div>
+
+                        
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Contacto</a>
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Sobre
+                            nosotros</a>
+                        <a href="#"
+                            class="me-lg-3 link-light nav-item link-underline-opacity-0">Eventos</a>
+
+                        
+                        <a href="#" class="link-light ms-lg-auto mt-lg-0 mt-2">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container my-5">
+            <div class="row">
+               
+                <div class="col-lg-8">
+                 
+                    <h5 class="mb-3 text-uppercase"><span class="badge bg-dark">Carreras</span></h5>
+                    
+                 
+                    <div class="card mb-3 border-0">
+                        <img src="images/2.jpg" class="card-img-top" alt="Carrera destacada">
+                        <div class="card-body card-content">
+                            <span class="badge bg-secondary mb-2">Carreras</span>
+                            <h4 class="card-title">Miguel Monforte y Héctor Miguel, terceros en el Cross de Soria</h4>
+                            <p class="card-text"><small class="text-muted"><i class="bi bi-calendar"></i> lunes, 11 de noviembre de 2024 · Admin</small></p>
+                            <p class="card-text">El Monte de Valonsadero en Soria ha acogido este domingo la XXX edición del Campo a través internacional de Soria.</p>
+                            <a href="#" class="btn btn-outline-secondary">Leer más</a>
+                        </div>
+                    </div>
+        
+            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img src="images/2.jpg" class="card-img-top" alt="Noticia 1">
+                                <div class="card-body card-content">
+                                    <span class="badge bg-secondary mb-2">Carreras</span>
+                                    <h5 class="card-title">Sebastián Pérez revalida el título en el Cross de Soria</h5>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-calendar"></i> lunes, 11 de noviembre de 2024 · Admin</small></p>
+                                    <p class="card-text">Iratxe Reinaldo, vencedora en categoría femenina, consigue una segunda victoria consecutiva en el evento.</p>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <img src="images/4.jpg" class="card-img-top" alt="Noticia 2">
+                                <div class="card-body card-content">
+                                    <span class="badge bg-secondary mb-2">Carreras</span>
+                                    <h5 class="card-title">Pau Capdevila e Inés Moreno, vencedores de la XVII Carrera Entre Viñedos</h5>
+                                    <p class="card-text"><small class="text-muted"><i class="bi bi-calendar"></i> domingo, 5 de noviembre de 2024 · Admin</small></p>
+                                    <p class="card-text">La carrera entre viñedos tuvo una alta participación con corredores de toda la región.</p>
+                                    <a href="#" class="btn btn-outline-secondary btn-sm">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    
+                    <div class="mb-4">
+                        <h5 class="text-uppercase"><span class="badge bg-primary">Próximos eventos</span></h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h6 class="mb-1">XVII Cross Vuelta al Plantío</h6>
+                                <small class="text-muted">17 noviembre · 12:15 - 14:00</small>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="mb-1">I Jornadas Técnicas Terra Atletismo</h6>
+                                <small class="text-muted">30 noviembre · 10:00 - 14:00</small>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="mb-1">II Carrera Popular Virgen de La Esperanza</h6>
+                                <small class="text-muted">15 diciembre · 10:30 - 12:30</small>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="mb-1">I Carrera Solidaria Ruta 091</h6>
+                                <small class="text-muted">12 enero, 2025 · 12:00 - 13:30</small>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="mb-1">I Desafío Sarrió</h6>
+                                <small class="text-muted">19 enero, 2025 · 09:15 - 12:30</small>
+                            </li>
+                        </ul>
+                        <a href="#" class="d-block mt-2 link-dark">Ver todos los eventos Eventos</a>
+                    </div>
+        
+                    
+                    <h5 class="mb-3 text-uppercase">Síguenos en Twitter</h5>
+                    <div class="p-3 bg-light rounded card-content">
+                        <p class="text-center">Posts de
+                            <strong>@correr_en_la_rioja</strong></p>
+                        <div class="text-center">
+                            <p>No hay nada que ver aquí. Por ahora.</p>
+                        </div>
+                    </div>
+                    <h5 class="mb-3 text-uppercase">En Logroño ahora</h5>
+                    <div class="p-3 mb-3 bg-light rounded">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h2>13°</h2>
+                                <p class="mb-0">Soleado</p>
+                            </div>
+                            <i class="bi bi-sun"
+                                style="font-size: 2rem; color: orange;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+        <footer class="bg-dark text-light py-3">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-1">Copyright © 2024 <a href="#"
+                                class="text-decoration-none text-info">Correr en
+                                La Rioja</a>. Todos los derechos reservados.</p>
+                        <p class="mb-1"><a href="#"
+                                class="text-decoration-none text-info">Política
+                                de cookies</a></p>
+                        <p class="mb-0">Otro proyecto de <a href="#"
+                                class="text-decoration-none text-info">MiRioja</a></p>
+                    </div>
+                    
+                    <div class="col-md-6 text-md-end text-center">
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i
+                                class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+    </body>
+</html>
